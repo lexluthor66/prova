@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout   xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar"
+        android:background="@color/colorPrimary"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+    </androidx.appcompat.widget.Toolbar>
+
+<TableLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"  >
+   <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+       <androidx.appcompat.widget.AppCompatButton
+           android:layout_margin="20dp"
+           android:id="@+id/pettobutton"
+           android:layout_weight="1"
+           style="@style/RaisedButton"
+           android:background="@drawable/rounded_corner"
+           android:text="Petto"   />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dorsobutton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="Dorso"
+            android:background="@drawable/rounded_corner"
+            style="@style/RaisedButton"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/spallebutton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="Spalle"
+            android:background="@drawable/rounded_corner"
+            style="@style/RaisedButton"/>
+
+    </TableRow>
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/gambebutton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="Gambe"
+            android:background="@drawable/rounded_corner"
+            style="@style/RaisedButton"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tricipitibutton"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="20dp"
+            android:text="Tricipiti"
+            android:background="@drawable/rounded_corner"
+            style="@style/RaisedButton"/>
+
+    </TableRow>
+
+</TableLayout>
+</LinearLayout>
