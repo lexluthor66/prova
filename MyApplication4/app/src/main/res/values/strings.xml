@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="create_order">Create Order</string>
+    <string name="create_order_title">Create Order</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_top">Top fragment</string>
+    <string-array name="pizzas">
+        <item>Diavolo</item>
+        <item>Funghi</item>
+    </string-array>
+    <string-array name="stores">
+        <item>Cambridge</item>
+        <item>Sebastopol</item>
+    </string-array>
+
+    <string-array name="pasta">
+        <item>Spaghetti Bolognese</item>
+        <item>Lasagne</item>
+    </string-array>
+
+    <string name="home_tab">Home</string>
+    <string name="pizza_tab">Pizzas</string>
+    <string name="pasta_tab">Pasta</string>
+    <string name="store_tab">Stores</string>
+    <string name="company_name">Bits and Pizzas</string>
+    <string name="restaurant_image">Restaurant image</string>
+    <string name="home_text">Since we opened our doors in 2017, Bits and Pizzas
+     has built its reputation as one of America’s best Italian-Digital
+        restaurants. Some people believe eating out is about being with your
+        friends and family. We believe that good food is best enjoyed while
+        staring at your phone.
+        Famiglie costrette dai capi ultrà a lasciare la curva nord di San Siro a
+        fine primo tempo di Inter-Sampdoria, in segno di lutto per
+        l assassinio del pluri pregiudicato Vittorio Boiocchi, guida storica del tifo organizzato dell Inter.
+        Tifosi presi a calci e pugni, perché si rifiutavano di abbandonare il secondo anello verde, come intimato
+        loro dai coordinatori del tifo organizzato, che in Boiocchi vedevano un esempio. Aspettando che le centinaia
+        di denunce social dei tifosi che raccontano di essere stati minacciati e malmenati s
+        i trasformino in denunce vere e proprie, da presentare a carabinieri e polizia, lInter si pone un problema:
+        come dimostrare solidarietà ai supporter che loro malgrado non hanno potuto assistere alla partita
+        e soprattutto come evitare che scene simili si ripetano. Sul punto, sono in corso r</string>
+    <string name="order_name_hint">Please enter your name</string>
+    <string name="order_details_hint">Please enter your order</string>
+</resources>
